@@ -1,8 +1,11 @@
-# Prelude
+# คำนำ
 
 > Role models are important. <br>
 > -- Officer Alex J. Murphy / RoboCop
 
+มีสิ่งหนึ่งที่ทำให้ผมรู้สึกรำคาญตลอดเวลาในฐานะ นักพัฒนาภาษา Ruby&mdash;Python 
+นั้นก็คือการมีเอกสารอ้างอิงสำหรับการเขียนโปรแกรมที่ดี ([PEP-8][]) และการที่เราไม่เคยมีคู่มือที่เป็นทางการ 
+หรือ เอกสารการเขียนโค้ด Ruby และ แนวทางที่ดีในการเขียนโค้ด 
 One thing has always bothered me as a Ruby developer&mdash;Python developers
 have a great programming style reference ([PEP-8][]) and we never got an
 official guide, documenting Ruby coding style and best practices. And I do
