@@ -3,9 +3,9 @@
 > Role models are important. <br>
 > -- Officer Alex J. Murphy / RoboCop
 
-มีสิ่งหนึ่งที่ทำให้ผมรู้สึกรำคาญตลอดเวลาในฐานะ นักพัฒนาภาษา Ruby&mdash;Python 
-นั้นก็คือการมีเอกสารอ้างอิงสำหรับการเขียนโปรแกรมที่ดี ([PEP-8][]) และการที่เราไม่เคยมีคู่มือที่เป็นทางการ 
-หรือ เอกสารการเขียนโค้ด Ruby และ แนวทางที่ดีในการเขียนโค้ด 
+มีสิ่งหนึ่งที่ทำให้ผมรู้สึกรำคาญตลอดเวลาในฐานะ นักพัฒนาภาษา Ruby&mdash;Python
+นั้นก็คือการมีเอกสารอ้างอิงสำหรับการเขียนโปรแกรมที่ดี ([PEP-8][]) และการที่เราไม่เคยมีคู่มือที่เป็นทางการ
+หรือ เอกสารการเขียนโค้ด Ruby และ แนวทางที่ดีในการเขียนโค้ด
 One thing has always bothered me as a Ruby developer&mdash;Python developers
 have a great programming style reference ([PEP-8][]) and we never got an
 official guide, documenting Ruby coding style and best practices. And I do
@@ -3780,9 +3780,7 @@ condition](#safe-assignment-in-condition).
 ## Numbers
 
   * <a name="integer-type-checking"></a>
-    Use `Integer` to check type of an integer number. Since `Fixnum` is
-    platform-dependent, checking against it will return different results on
-    32-bit and 64-bit machines.
+    ควรใช้ `Integer` ในการตรวจสอบประเภทของเลขจำนวนเต็ม. เพราะหากตรวจสอบด้วย `Fixnum` ที่จะให้ผลลัพท์ขึ้นกับ Platform ที่ใช้อาจทำให้ได้ผลลัพท์ที่ต่างกันระหว่างเครื่องระบบ 32-bit และระบบ 64-bit.
     <sup>[[link](#integer-type-checking)]</sup>
 
     ```ruby
@@ -3797,8 +3795,7 @@ condition](#safe-assignment-in-condition).
     ```
 
   * <a name="random-numbers"></a>
-    Prefer to use ranges when generating random numbers instead of integers with offsets,
-    since it clearly states your intentions. Imagine simulating a roll of a dice:
+    แนะนำให้ใช้ลำดับตัวเลขเมื่อต้องการสร้างตัวเลขสุ่ม แทนวิธี่การใส่ตัวเลขแล้วเพิ่มค่าทดแทน, เพราะจะเป็นการทำงานที่ตรงต่อจุดมุ่งหมายของคุณมากกว่า. ลองจินตนาการหากเป็นการทอยลูกเต๋า:
     <sup>[[link](#random-numbers)]</sup>
 
     ```ruby
