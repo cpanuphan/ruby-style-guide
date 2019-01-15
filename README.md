@@ -2596,6 +2596,7 @@ condition](#safe-assignment-in-condition).
 ### Magic Comments
 
   * <a name="magic-comments-first"></a>
+    ใส่ magic comment บน code และ documentation ในไฟล์ (ยกเว้น shebangs[!#])
     Place magic comments above all code and documentation in a file (except shebangs, which are discussed next).
 
     ```ruby
@@ -2615,6 +2616,7 @@ condition](#safe-assignment-in-condition).
     ```
 
   * <a name="below-shebang"></a>
+    ใส่ magic comments ใต้ shebangs เมื่อปรากฎในไฟล์
     Place magic comments below shebangs when they are present in a file.
     <sup>[[link](#below-shebang)]</sup>
 
@@ -2633,6 +2635,7 @@ condition](#safe-assignment-in-condition).
     ```
 
   * <a name="one-magic-comment-per-line"></a>
+    ไม่เขียน magic comment บรรทัดเดียว ให้แยกเป็นหลายๆ บรรทัด
     Use one magic comment per line if you need multiple.
     <sup>[[link](#one-magic-comment-per-line)]</sup>
 
@@ -2646,6 +2649,7 @@ condition](#safe-assignment-in-condition).
     ```
 
   * <a name="separate-magic-comments-from-code"></a>
+    แยก magic comments จาก code และ documentation ด้วยบรรทัดว่าง
     Separate magic comments from code and documentation with a blank line.
     <sup>[[link](#separate-magic-comments-from-code)]</sup>
 
